@@ -1,15 +1,25 @@
-\documentclass{article}
+\documentclass[12pt,a4paper]{article}
 \usepackage[utf8]{vietnam}
+\usepackage[left=2cm, right=2cm, top=2cm, bottom=2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{mathtools}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{thmtools}
 \usepackage{xcolor}
-
+\usepackage{nameref}
+\usepackage{hyperref}
+\title{Buổi 5}
+\author{Nhóm 3}
 \begin{document}
-\section{Danh sách vắng}
-Vắng: 0
-
-\section{Tài liệu tham khảo}
-Theo tài liệu của Cần \textcolor{red}{\cite{HelloWorld}}
-
-\begin{thebibliography}{99}
-\bibitem{HelloWorld} Karapinar, E., Binh, H. D., Luc, N. H., \& Can, N. H. (2021). On continuity of the fractional derivative of the time-fractional semilinear pseudo-parabolic systems. \textit{Advances in Difference Equations, 2021(1)}, 70.
-\end{thebibliography}
+	\maketitle
+	\renewcommand{\thesection}{\arabic{section}/}
+	\section{Danh sách vắng}
+	-Phạm Ngọc Khánh Linh\\
+	\section{Tài liệu tham khảo}
+	Theo tài liệu tham khảo của Cần \textcolor{red}{\cite{nyc1}}
+	\renewcommand{\refname}{Danh sách tài liệu}
+	\begin{thebibliography}{99}
+		\bibitem{nyc1}Karapinar, E., Binh, H. D., Luc, N. H., \& Can, N. H. (2021). On continuity of the fractional derivative of the time-fractional semilinear pseudo-parabolic systems. \textit{Advances in Difference Equations, 2021}(1), 70.
+	\end{thebibliography}
 \end{document}
